@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    padding: 2rem 4rem;
+    justify-content: space-between;
+    color: #112025;
+}
+
+.footer__misc {
+    display: flex;
+    gap: 12rem;
+}
+
+.footer__links-list,
+.footer__ques-contact,
+.footer__services-list,
+.footer__links,
+.footer__ques,
+.footer__services {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem
+}
+
+.footer__questions-contactbtn {
+    border: 0.10rem solid #112025;
+    border-radius: 1rem;
+    color: #112025;
+    background-color: transparent;
+    padding: 0.3rem 1rem;
+}
+
+.footer__info {
+    width: 20rem;
+}
+
+.footer__links,
+.footer__ques,
+.footer__services {
+    margin-top: 1rem;
+}

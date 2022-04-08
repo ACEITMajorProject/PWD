@@ -1,0 +1,23 @@
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #1A5E6B;
+    padding: 3rem 20rem
+}
+
+.newsletter__details-name,
+.newsletter__details-email {
+    border-radius: 0.2rem;
+    margin-right: 0.4rem;
+    border: none;
+    padding: 0.4rem;
+}
+
+.newsletter-btn {
+    background-color: #112025;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+    color: white;
+}
