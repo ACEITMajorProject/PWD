@@ -4,7 +4,25 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 4rem 4rem;
 }
+
+.aim__tag {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.aim__desc {
+    margin-top: 1.8rem;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+span {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
 
 .aim__icons {
     display: flex;
@@ -19,6 +37,9 @@
 .aim__icons--img {
     width: 12rem;
     height: 12rem;
+}
 
-
+.aim__icons--tag {
+    margin-top: 2rem;
+    font-size: 1.4rem;
 }

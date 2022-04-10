@@ -13,14 +13,14 @@ function Register() {
                     1
                 </div>
                  <div className="register__steps--firstText">
-                    <div className="register__steps--firstText--heading">
+                    <div className="register__steps--heading ">
                         Sign up with UDID
                     </div>
-                     <div className="register__steps--firstText--subHeading">
+                     <div className="register__steps--subHeading">
                        Create an account and it will give you more chance to shine
                      </div>
                      <div className="register__steps--firstText--alt">
-                         OR <br/> Register Yourself to get your UDID
+                      <strong>OR <br/> Register Yourself to get your UDID</strong> 
                      </div>
                  </div>
             </div>
@@ -28,15 +28,15 @@ function Register() {
             <div className="register__steps--second">
                 <div className="register__steps--second2">2</div>
                 <div className="register__steps--secondText">
-                    <div className="register__steps--secondText--heading">Upload details</div>
-                    <div className="register__steps--secondText--subHeading">Let us know more about you... <br/> We will verify yout details and send you the confirmation</div>
+                    <div className="register__steps--heading">Upload details</div>
+                    <div className="register__steps--secondText--subHeading">Let us know more about<br/><center>you...</center>We will verify yout details and send you the confirmation</div>
                 </div>
             </div>
 
             <div className="register__steps--third">
                 <div className="register__steps--third3">3</div>
                 <div className="register__steps--thirdText">
-                    <div className="register__steps--thirdText--heading">Get access</div>
+                    <div className="register__steps--heading">Get access</div>
                     <div className="register__steps--thirdText--subHeading">You are all set to find the best suitable schemes and programs to avail the maximum benefit according to your need</div>
                 </div>
             </div>

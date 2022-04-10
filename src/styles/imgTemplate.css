@@ -3,13 +3,31 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 2rem;
 }
 
+.imgTemplate__text--tag {
+    margin-bottom: 1rem;
+}
 
 .imgTemplate__img--image {
     border: none;
     border-radius: 1.5rem 0.5rem 3rem 0.4rem;
-    margin-left: 2rem;
     height: 10rem;
     width: 12rem;
+}
+
+.imgTemplate__text {
+    width: 12rem;
+}
+
+
+.imgTemplate__learn--btn {
+    background-color: #EBAB2D;
+    border: none;
+    border-radius: 1rem 0.3rem 2rem 0.4rem;
+    padding: 0.5rem 3.9rem 0.5rem 1.2rem;
+    align-items: center;
+    color: rgb(98, 95, 95);
+    border: 0.04rem solid rgb(155, 150, 150);
 }

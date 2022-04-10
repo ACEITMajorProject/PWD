@@ -1,7 +1,7 @@
 import React from 'react'
 import "./styles/footer.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faFacebook, faTwitter, faYoutube, faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
+import { faFacebookF, faTwitter, faYoutube, faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 
 
 
@@ -13,8 +13,8 @@ function Footer() {
           <div className="footer__info-desc">We are a team of technocrats looking at the world to make it a better place by building a purposeful project aim to do something good for the society.
           Join and connect with us to take this initiative at higher heights</div>
           <div className="footer__info-icons">
-          <div className='.footer__icons--div'>
-           <FontAwesomeIcon icon={faFacebook} className="footer__info-icons--social"/></div>
+          <div className='footer__icons--div'>
+           <FontAwesomeIcon icon={faFacebookF} className="footer__info-icons--social"/></div>
            <div className='footer__icons--div'>
            <FontAwesomeIcon icon={faInstagram}  className="footer__info-icons--social" /></div>
            <div className='footer__icons--div'><FontAwesomeIcon icon={faTwitter}  className="footer__info-icons--social"/></div>

@@ -4,10 +4,15 @@
     justify-content: space-between;
     align-items: center;
     justify-content: center;
-
+    padding: 4rem;
 }
 
 .services__desc {
     display: flex;
-    justify-content: space-between;
+}
+
+.services__tag {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
 }

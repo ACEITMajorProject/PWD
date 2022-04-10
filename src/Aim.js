@@ -16,20 +16,20 @@ function Aim() {
             <div className="aim__icons-happy--pic">
              <img src={happy} alt="" className=' aim__icons--img'/>
             </div>
-            <div className="aim__icons-happy--tag"><span>H</span><span>appines</span>
+            <div className="aim__icons-happy--tag aim__icons--tag"><span>H</span>appiness
             </div>
             </div>
             <div className="aim__icons-support">
                 <div className="aim__icons-support--pic aim__icons--img"> <img src={support} alt="" className=' aim__icons--img'/></div>
-                <div className="aim__icons-support--tag"><span>s</span><span>upport</span></div>
+                <div className="aim__icons-support--tag aim__icons--tag"><span>S</span>upport</div>
             </div>
             <div className="aim__icons-opportunity">
                 <div className="aim__icons-opportunity--pic aim__icons--img"> <img src={opportunity} alt="" className=' aim__icons--img'/></div>
-                <div className="aim__icons-opportunity--tag"><span>O</span><span>pportunity</span></div>
+                <div className="aim__icons-opportunity--tag aim__icons--tag"><span>O</span>pportunity</div>
             </div>
             <div className="aim__icons-guidance">
                 <div className="aim__icons-guidance--pic aim__icons--img"><img src={guidance} alt="" className=' aim__icons--img'/></div>
-                <div className="aim__icons-guidance--tag"><span>G</span><span>uidance</span></div>
+                <div className="aim__icons-guidance--tag aim__icons--tag"><span>G</span>uidance</div>
             </div>
         </div>
     </div>

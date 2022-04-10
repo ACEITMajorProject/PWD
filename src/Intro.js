@@ -15,14 +15,15 @@ function Intro() {
           </div>
       </div>
       <div className="intro__desc">
+      <div className="intro__desc--left">
            <div className="intro__descText">
-          <h1>Let us create a beautiful story by giving wings to the dreams of specially abled.</h1>
-          <h3>Get regular update and notification for new schemes and plans launched by government to avail maximum benefit and utilize at its best.</h3>
-          <div className="intro__descBtn">
+          <div className='intro__descText--heading'>Let us create a beautiful story by giving wings to the dreams of specially abled.</div><br/><br/>
+          <div className='intro__descText--subheading'>Get regular update and notification for new schemes and plans launched by government to avail maximum benefit and utilize at its best.</div>
+          </div>
+            <div className="intro__descBtn">
              <button type="submit" className="intro__descBtn--login">Login</button>
              <button type="submit" className='intro__descBtn--register'>Register</button>
-          </div>
-          </div>
+          </div></div>
           <div className="intro__descImage">
               <img src={intro} alt="" className='intro__descImage--img '/>
           </div>

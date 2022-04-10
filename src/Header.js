@@ -5,8 +5,8 @@ function Header() {
   return (
     <div>
       <div className="header">
-      <div className="appName">pwd</div>
-      <div className="headerOptions">
+      <div className="header__appName">PWD</div>
+      <div className="header__Options">
           <a>Central Govt. Schemes</a>
           <a>State Govt. Schemes</a>
           <a>Medical Help</a>

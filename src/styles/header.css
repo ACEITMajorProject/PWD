@@ -1,10 +1,16 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2.5rem;
+    padding: 1rem 6rem;
     background-color: #EBAB2D;
 }
 
-.headerOptions>* {
+.header__appName {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.02rem;
+}
+
+.header__Options>* {
     margin-left: 1.3rem;
 }

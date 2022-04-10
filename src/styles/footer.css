@@ -52,20 +52,14 @@
 }
 
 
-.footer__info-icons>.footer__icons-div:first-child {
-    color: red;
-}
+
 
 .footer__info-icons--social {
     font-size: 1.2rem;
 }
 
-/* 
-.footer__icons--div {
-    margin-right: 0.7rem;
-} */
 
-.footer__icons--div:not(:first-child) {
+.footer__icons--div {
 
     background-color: #112025;
     color: white;

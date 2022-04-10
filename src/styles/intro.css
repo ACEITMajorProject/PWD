@@ -1,6 +1,17 @@
 .intro {
-    padding: 5em 3rem;
+    padding: 5rem 6rem;
 }
+
+.intro__descText--heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.intro__descText--subheading {
+    font-size: 1.1rem;
+    letter-spacing: 0.04rem;
+}
+
 
 .intro__search-tag {
     font-size: 1.4rem;
@@ -22,21 +33,32 @@
 .intro__desc {
     display: flex;
     justify-content: space-between;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
-.intro__descText {
+.intro__desc--left {
     flex-basis: 40%;
 }
 
+.intro__desc--left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .intro__descImage--img {
-    height: 20rem;
-    width: 30rem;
+    height: 22rem;
+    width: 34rem;
     border-radius: 1rem;
     align-items: right;
     justify-content: right;
     float: right;
+}
+
+.intro__descBtn {
+
+    margin-bottom: 0;
+
 }
 
 .intro__descBtn--register,
@@ -50,6 +72,7 @@
 .intro__descBtn--register {
     background-color: #1A5E6B;
     color: white;
+    margin-left: 1rem;
 }
 
 .intro__descBtn--login {
