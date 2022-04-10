@@ -6,6 +6,13 @@
     padding: 3rem 20rem
 }
 
+.newsletter__signUp-heading {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.9rem;
+    letter-spacing: 0.19rem;
+}
+
 .newsletter__details-name,
 .newsletter__details-email {
     border-radius: 0.2rem;
@@ -18,6 +25,6 @@
     background-color: #112025;
     border: none;
     border-radius: 0.2rem;
-    padding: 0.4rem;
+    padding: 0.4rem 1.4rem;
     color: white;
 }
