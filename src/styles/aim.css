@@ -1,0 +1,24 @@
+.aim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.aim__icons {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.aim__icons>* {
+    margin-right: 4rem;
+}
+
+.aim__icons--img {
+    width: 12rem;
+    height: 12rem;
+
+
+}
