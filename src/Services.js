@@ -9,10 +9,10 @@ function Services() {
   return (
     <div className='services'>
     <div className="services__tag">Services</div>
-    <div className="services__desc">
+    <div className="services__desc justify-content-between">
         <Imgtemplate image={scheme} tag=" Government Schemes" desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi corrupti cum at qui quos quo possimus sed dignissimos, dolorum repellendus."/>
         <Imgtemplate image={program} tag="Private Org. Programs" desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi corrupti cum at qui quos quo possimus sed dignissimos, dolorum repellendus."/>
-        <Imgtemplate image={finance} tag=" Financial & Medical Aid" desc="        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi corrupti cum at qui quos quo possimus sed dignissimos, dolorum repellendus." />
+        <Imgtemplate image={finance} tag=" Financial & Medical Aid" desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi corrupti cum at qui quos quo possimus sed dignissimos, dolorum repellendus." />
     </div>
     </div>
   )

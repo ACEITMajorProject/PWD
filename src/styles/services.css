@@ -1,14 +1,11 @@
 .services {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: center;
-    padding: 4rem;
+    padding: 2.5rem 6rem;
+    text-align: center;
 }
 
 .services__desc {
     display: flex;
+    justify-content: space-between;
 }
 
 .services__tag {

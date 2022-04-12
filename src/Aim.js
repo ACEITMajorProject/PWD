@@ -11,7 +11,7 @@ function Aim() {
     <div className='aim'>
         <div className='aim__tag'> Our AIM</div>
         <div className='aim__desc'> We aim to provide every specially abled person with a chance to believe in the beauty of their dreams and to maximize the benefit of available programs and schemes to make best out of it.</div>
-        <div className = 'aim__icons' >
+        <div className = 'aim__icons d-flex flex-sm-column flex-lg-row' >
             <div className="aim__icons-happy">
             <div className="aim__icons-happy--pic">
              <img src={happy} alt="" className=' aim__icons--img'/>

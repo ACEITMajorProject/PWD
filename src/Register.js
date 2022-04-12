@@ -7,7 +7,7 @@ function Register() {
         <div className="register__tag">
             Steps To Register
         </div>
-        <div className="register__steps">
+        <div className="register__steps d-flex flex-sm-column flex-lg-row ">
             <div className="register__steps--first">
                 <div className="register__steps--first1">
                     1
