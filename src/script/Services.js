@@ -1,9 +1,9 @@
 import React from 'react'
-import Imgtemplate from './Imgtemplate'
-import './styles/services.css'
-import finance from "./images/financialaid.jpg";
-import scheme from "./images/govtscheme.jpg";
-import program from "./images/orgprogram.jpg";
+import Imgtemplate from "./Imgtemplate"
+import "../styles/services.css"
+import finance from "../images/financialaid.jpg";
+import scheme from "../images/govtscheme.jpg";
+import program from "../images/orgprogram.jpg";
 
 function Services() {
   return (

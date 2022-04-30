@@ -1,5 +1,5 @@
 import React from 'react'
-import "./styles/imgTemplate.css"
+import "../styles/imgTemplate.css"
 
 function Imgtemplate({image, tag, desc}) {
   return (
@@ -13,7 +13,7 @@ function Imgtemplate({image, tag, desc}) {
      </div>
      </div>
      <div className="imgTemplate__learn">
-         <button type="submit" className='imgTemplate__learn--btn' >Learn More</button>
+         <button type="submit" className="imgTemplate__learn--btn" >Learn More</button>
      </div>
     </div>
   )

@@ -28,3 +28,17 @@
     padding: 0.4rem 1.4rem;
     color: white;
 }
+
+.newsletter-btn:hover {
+    transform: scale(1.02);
+    box-shadow: 0.01px 0.02px 0.01px 0.02px #e1e1e1;
+
+}
+
+@media(max-width:720px) {
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 5rem;
+    }
+}

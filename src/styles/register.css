@@ -13,6 +13,7 @@
 }
 
 .register__steps {
+    display: flex;
     margin-top: 1rem;
     justify-content: space-between;
 }
@@ -25,6 +26,44 @@
 .register__steps--secondText,
 .register__steps--thirdText {
     text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.register__steps--firstText {
+    margin-top: -100px;
+    margin-left: 20px;
+}
+
+.register__steps--firstText>.register__steps--heading {
+    width: 76%;
+    margin-bottom: 0.6rem;
+}
+
+.register__steps--firstText>.register__steps--firstText--subHeading {
+    width: 95%;
+}
+
+.register__steps--secondText {
+    margin-left: -19px;
+    margin-top: -78px;
+}
+
+.register__steps--secondText>.register__steps--heading {
+    margin-bottom: 1.2rem;
+}
+
+.register__steps--thirdText {
+    margin-top: -78px;
+    margin-left: -19px;
+}
+
+.register__steps--thirdText>.register__steps--heading {
+    margin-bottom: 1.2rem;
+}
+
+.register__steps--thirdText>.register__steps--thirdText--subHeading {
+    width: 95%;
 }
 
 
@@ -44,4 +83,13 @@
 .register__tag {
     font-size: 2rem;
     font-weight: 600;
+}
+
+@media (max-width: 723px) {
+
+    .register__steps {
+        display: flex;
+        flex-direction: column;
+    }
+
 }

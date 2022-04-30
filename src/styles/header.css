@@ -1,9 +1,13 @@
 .header {
-    display: flex;
-    justify-content: space-between;
     padding: 1rem 6rem;
     background-color: #EBAB2D;
 }
+
+.header__menu {
+    width: 1.5rem;
+    height: 2rem;
+}
+
 
 .header__appName {
     font-size: 1.2rem;
@@ -11,6 +15,7 @@
     letter-spacing: 0.02rem;
 }
 
-.header__Options>* {
-    margin-left: 1.3rem;
+a:hover {
+    transform: scaleY(1.04);
+    font-weight: 500;
 }

@@ -1,6 +1,26 @@
-.intro {
-    padding: 5rem 6rem;
+.introContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+
+
 }
+
+.intro__search {
+    margin-top: 3rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    background-color: white;
+    height: auto;
+    padding: 2rem 4rem
+}
+
 
 .intro__descText--heading {
     font-size: 2.5rem;
@@ -21,6 +41,13 @@
     margin-top: 1rem;
     display: flex;
 }
+
+.intro__search-list--menu {
+    width: 25%;
+    margin-right: 0.8rem;
+}
+
+
 
 .intro__search-list--btn {
     background-color: #1A5E6B;
@@ -57,7 +84,10 @@
 
 .intro__descBtn {
 
-    margin-bottom: 0;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
 
 }
 
@@ -72,11 +102,18 @@
 .intro__descBtn--register {
     background-color: #1A5E6B;
     color: white;
-    margin-left: 1rem;
 }
 
 .intro__descBtn--login {
     background-color: transparent;
     color: #112025;
     border: 0.12rem solid #1A5E6B;
+}
+
+@media (max-width: 1280px) {
+
+    .intro__descImage--img {
+        display: none;
+    }
+
 }

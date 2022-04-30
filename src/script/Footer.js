@@ -1,5 +1,5 @@
 import React from 'react'
-import "./styles/footer.css"
+import "../styles/footer.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebookF, faTwitter, faYoutube, faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 
@@ -26,19 +26,19 @@ function Footer() {
        <div className="footer__links">
        <div className="footer__links-tag footer__miscTags">Quick links</div>
        <div className="footer__links-list">
-           <a>Home</a>
-           <a>About us</a>
-           <a>Aim</a>
-           <a>Services</a>
+           <a className='footer-link'>Home</a>
+           <a className='footer-link'>About us</a>
+           <a className='footer-link'>Aim</a>
+           <a className='footer-link'>Services</a>
        </div>
        </div>
        <div className="footer__services">
            <div className="footer__Services-tag footer__miscTags">Our Services</div>
            <div className="footer__services-list">
-               <a>Government Schemes</a>
-               <a>Private Org. Programs</a>
-               <a>Medical Help</a>
-               <a>Financial Aid</a>
+               <a className='footer-link'>Government Schemes</a>
+               <a className='footer-link'>Private Org. Programs</a>
+               <a className='footer-link'>Medical Help</a>
+               <a className='footer-link'>Financial Aid</a>
            </div>
        </div>
        <div className="footer__ques">

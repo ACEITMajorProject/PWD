@@ -1,16 +1,19 @@
 import React from 'react'
-import "./styles/intro.css"
-import intro from "./images/intro.jpg"
+import "../styles/intro.css"
+import intro from "../images/intro.jpg"
+import Dropdown from "./Dropdown"
+
 
 function Intro() {
   return (
+    <div className="introContainer">
     <div className='intro'>
       <div className="intro__search">
           <div className="intro__search-tag">
               <strong>Search flagship schemes</strong>
           </div>
           <div className="intro__search-list">
-              <div className="intro__search-list--menu">dropdown list</div>
+              <div className="intro__search-list--menu"><Dropdown/></div>
               <button type="submit" className="intro__search-list--btn">Search</button>
           </div>
       </div>
@@ -28,7 +31,7 @@ function Intro() {
               <img src={intro} alt="" className='intro__descImage--img '/>
           </div>
       </div>
-    </div>
+    </div></div>
   )
 }
 

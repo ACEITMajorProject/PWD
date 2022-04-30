@@ -43,3 +43,10 @@ span {
     margin-top: 2rem;
     font-size: 1.4rem;
 }
+
+@media (max-width: 1280px) {
+    .aim__icons {
+        flex-direction: column;
+    }
+
+}

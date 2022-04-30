@@ -1,5 +1,5 @@
 import React from 'react'
-import "./styles/register.css"
+import "../styles/register.css"
 
 function Register() {
   return (
@@ -7,7 +7,7 @@ function Register() {
         <div className="register__tag">
             Steps To Register
         </div>
-        <div className="register__steps d-flex flex-sm-column flex-lg-row ">
+        <div className="register__steps">
             <div className="register__steps--first">
                 <div className="register__steps--first1">
                     1
@@ -16,7 +16,7 @@ function Register() {
                     <div className="register__steps--heading ">
                         Sign up with UDID
                     </div>
-                     <div className="register__steps--subHeading">
+                     <div className="register__steps--firstText--subHeading">
                        Create an account and it will give you more chance to shine
                      </div>
                      <div className="register__steps--firstText--alt">

@@ -1,12 +1,12 @@
 import {React} from "react";
-import Header from "./Header";
-import Newsletter from "./Newsletter";
-import Footer from "./Footer"
-import Aim from "./Aim"
+import Header from "./script/Header";
+import Newsletter from "./script/Newsletter";
+import Footer from "./script/Footer"
+import Aim from "./script/Aim"
 import "./styles/app.css"
-import Intro from "./Intro";
-import Services from "./Services";
-import Register from "./Register";
+import Intro from "./script/Intro";
+import Services from "./script/Services";
+import Register from "./script/Register";
 
 function App() {
     return ( 
