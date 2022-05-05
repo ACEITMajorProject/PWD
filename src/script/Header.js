@@ -1,11 +1,13 @@
 import React from 'react'
 import "../styles/header.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHandHoldingHeart } from '@fortawesome/free-solid-svg-icons';
 
 function Header() {
   return (
 <nav class="navbar navbar-expand-lg navbar-light d-flex header">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">PWD</a>
+    <a class="navbar-brand header__appName" href="#">HELPING HANDS<FontAwesomeIcon icon={faHandHoldingHeart}  className="HeaderWebsite__logo"/></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
       <span class="navbar-toggler-icon  header__menu"></span>
     </button>

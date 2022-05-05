@@ -3,6 +3,11 @@
     background-color: #EBAB2D;
 }
 
+.HeaderWebsite__logo {
+    font-size: 1.3rem;
+    margin-left: 0.4rem;
+}
+
 .header__menu {
     width: 1.5rem;
     height: 2rem;

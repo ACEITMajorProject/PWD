@@ -2,6 +2,9 @@ import React from 'react'
 import "../styles/intro.css"
 import intro from "../images/intro.jpg"
 import Dropdown from "./Dropdown"
+import Login from '../components/Login'
+import Register from '../components/Register'
+import { Link } from 'react-router-dom'
 
 
 function Intro() {
@@ -24,8 +27,11 @@ function Intro() {
           <div className='intro__descText--subheading'>Get regular update and notification for new schemes and plans launched by government to avail maximum benefit and utilize at its best.</div>
           </div>
             <div className="intro__descBtn">
-             <button type="submit" className="intro__descBtn--login">Login</button>
-             <button type="submit" className='intro__descBtn--register'>Register</button>
+              <Link to={`/login`}>
+             <button type="submit" className="intro__descBtn--login" onClick={<Login/>}>Login</button>
+             </Link>
+             <Link to={`/register`}>
+             <button type="submit" className='intro__descBtn--register' onClick={<Register/>}>Register</button></Link>
           </div></div>
           <div className="intro__descImage">
               <img src={intro} alt="" className='intro__descImage--img '/>
