@@ -14,17 +14,17 @@ function Header() {
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item ">
-          <a class="nav-link " aria-current="page" href="#">Central Govt. Schemes
+          <a class="nav-link " aria-current="page" href="#">About Us
         </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">  State Govt. Schemes</a>
+          <a class="nav-link" href="#">Aim</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"> Medical Help</a>
+          <a class="nav-link" href="#">Services</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="#">Financial Aid</a>
+          <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
     </div>

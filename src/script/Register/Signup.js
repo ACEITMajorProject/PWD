@@ -12,12 +12,9 @@ const FormSignup = ({ submitForm }) => {
   return (
     <div className='Register-content-right'>
       <form onSubmit={handleSubmit} className='form' noValidate>
-        <h1 className='Register-content-right-heading'>
-         Register with us today!
-        </h1>
         <div className="input-block">
-        <div className='input-block-1'>
         <div className='form-inputs'>
+         <div className="Register-content-right-heading">REGISTER WITH US TODAY !!!</div>
           <label className='form-label'>Name</label>
           <input
             className='form-input'
@@ -66,56 +63,6 @@ const FormSignup = ({ submitForm }) => {
           {/* {errors.password2 && <p>{errors.password2}</p>} */}
         </div>
          <div className='form-inputs'>
-          <label className='form-label'>Mobile</label>
-          <input
-            className='form-input'
-            type='number'
-            name='Mobile'
-            placeholder='Enter your 10-digit Mobile number'
-            // value={values.password2}
-            // onChange={handleChange}
-          />
-          {/* {errors.password2 && <p>{errors.password2}</p>} */}
-        </div>
-        </div>
-        <div className="input-block-2">
-         <div className='form-inputs'>
-          <label className='form-label'>State</label>
-          <input
-            className='form-input'
-            type='text'
-            name='State'
-            placeholder='Enter your state'
-            // value={values.password2}
-            // onChange={handleChange}
-          />
-          {/* {errors.password2 && <p>{errors.password2}</p>} */}
-        </div>
-         <div className='form-inputs'>
-          <label className='form-label'>City</label>
-          <input
-            className='form-input'
-            type='text'
-            name='city'
-            placeholder='Enter your city'
-            // value={values.password2}
-            // onChange={handleChange}
-          />
-          {/* {errors.password2 && <p>{errors.password2}</p>} */}
-        </div>
-         <div className='form-inputs'>
-          <label className='form-label'>Address</label>
-          <input
-            className='form-input'
-            type='text'
-            name='address'
-            placeholder='Enter your address'
-            // value={values.password2}
-            // onChange={handleChange}
-          />
-          {/* {errors.password2 && <p>{errors.password2}</p>} */}
-        </div>
-         <div className='form-inputs'>
           <label className='form-label'>Aadhar Number</label>
           <input
             className='form-input'
@@ -138,7 +85,7 @@ const FormSignup = ({ submitForm }) => {
             // onChange={handleChange}
           />
           {/* {errors.password2 && <p>{errors.password2}</p>} */}
-        </div></div></div>
+        </div></div>
         <button className='form-input-btn' type='submit'>
           Sign up
         </button>

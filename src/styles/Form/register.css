@@ -1,99 +1,66 @@
-blockquote {
-    border: none;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    quotes: "\201C""\201D""\2018""\2019";
-}
-
-h3 {
-    font-size: 1.4rem;
-    font-weight: 700;
-}
-
-blockquote h3:before {
-    content: open-quote;
-    font-weight: bold;
-    color: #112025;
-}
-
-blockquote h3:after {
-    content: close-quote;
-    font-weight: bold;
-    color: #112025;
-}
-
 .Register-container {
     position: fixed;
     display: flex;
     top: 0;
+    width: 69%;
     bottom: 0;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    gap: 14rem;
+    margin-left: 3rem;
 }
 
-.input-block {
+.Register-content-left {
+    width: 50%;
     display: flex;
+    flex-direction: column;
     gap: 3rem;
+    margin-top: 10%;
+}
+
+.Register-content-right {
+    width: 40%;
+}
+
+
+
+.Register-content-left__heading {
+    font-family: Georgia,
+        "Times New Roman",
+        Times,
+        serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.Register-content-right-heading {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1REM;
+    font-family: Georgia,
+        "Times New Roman",
+        Times,
+        serif;
+}
+
+.Register-website__logo {
+    font-size: 3rem;
+    margin-left: 0.5rem;
 }
 
 .form {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.2rem;
     color: #112025;
-}
-
-.form-content-left {
-    width: 45%;
-    padding-left: 30px
-}
-
-.form-content-right {
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    gap: 12rem;
 }
 
 .form-label {
     font-size: 1.2rem;
     font-weight: 600;
 }
-
-.form-content-left {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.website__logo {
-    font-size: 4rem;
-}
-
-.form-content-right__heading {
-    font-family: Georgia,
-        "Times New Roman",
-        Times,
-        serif;
-    font-weight: 400;
-    font-size: 1.3rem;
-}
-
-.form-content-left__heading {
-
-    font-size: 4rem;
-    font-weight: 700;
-    letter-spacing: 0.1rem;
-}
-
-/* .form-content-left__subHeading {
-    font-family: 'Josefin Sans',
-        sans-serif;
-    
-} */
 
 .form-input-btn {
     background-color: #112025;
@@ -127,16 +94,13 @@ input[type="email"] textarea {
     border-radius: 0.4rem;
 }
 
-.form {
-    height: 100%;
-}
+
 
 .login__image {
     z-index: -1;
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 100%;
     transform: translate(-50%, -50%);
     opacity: 0.1;
 
